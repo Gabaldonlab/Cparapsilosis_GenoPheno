@@ -4,11 +4,22 @@ Code from the study "Dissection of genotype-phenotype relationships in Candida p
 
 # Software environment
 
-Create the conda environment with all dependencies:
+To install the necessary dependencies, create the conda environment with:
 
 `conda env create --file ./Cparapsilosis_popgen_env.yml --name Cparapsilosis_popgen_env`
 
 Activate environment with:
 
 `conda activate Cparapsilosis_popgen_env`
+
+# Running
+
+Once all dependencies have been installed, you may reproduce our analyses by running:
+
+`python run_pipelines.py`
+
+Also, you may reproduce the figures and tables of the paper with:
+
+`python figures_paper.py`
+
 
